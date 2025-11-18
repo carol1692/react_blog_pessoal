@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom"
 import type UsuarioLogin from "../../models/UsuarioLogin"
 
 import { ClipLoader } from "react-spinners"
-import { AuthContext } from "../../contexts/AuthCOntext"
+import { AuthContext } from "../../contexts/AuthContext"
 
 function Login() {
 	const navigate = useNavigate()
