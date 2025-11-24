@@ -38,7 +38,7 @@ function Navbar() {
                         Cadastrar tema 
                         </Link>
                         
-						<Link to="/perfil" >
+						<Link to="/perfil" className="hover:underline" >
                         Perfil 
                         </Link>
                         
